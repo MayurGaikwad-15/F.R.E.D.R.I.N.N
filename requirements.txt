@@ -1,0 +1,11 @@
+python-telegram-bot[job-queue]
+python-dotenv
+groq
+playwright
+httpx
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+beautifulsoup4
+
+pypdf2

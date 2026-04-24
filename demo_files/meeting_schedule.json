@@ -1,0 +1,28 @@
+{
+  "meeting": {
+    "title": "Final Year Project Review - Sentinel AI Bot",
+    "date": "2026-04-25",
+    "time": "10:00 AM IST",
+    "location": "Room 302, AIML Department",
+    "attendees": [
+      "Aaryan Bhujbal",
+      "Khatri Noumaan",
+      "Mayur Gaikwad",
+      "Prisha Shah",
+      "Prof. Abhishek Patra"
+    ],
+    "agenda": [
+      "Demo of Discord bot interface",
+      "Live Gmail integration walkthrough",
+      "Food ordering module demonstration",
+      "Docker sandbox security demo",
+      "Q&A with external examiner"
+    ],
+    "preparation_notes": "Ensure Docker is running. Kill zombie processes before demo. Have sample emails ready in Gmail."
+  },
+  "deadlines": {
+    "report_submission": "2026-04-28",
+    "presentation": "2026-04-25",
+    "viva": "2026-05-02"
+  }
+}

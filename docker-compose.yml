@@ -1,0 +1,31 @@
+# ─────────────────────────────────────────────────────────────
+# docker-compose.yml — F.R.E.D.R.I.N.N. Bot Sandbox Deployment
+# ─────────────────────────────────────────────────────────────
+# Run with: docker compose up --build
+# Stop with: docker compose down
+# ─────────────────────────────────────────────────────────────
+
+services:
+  fredrinn:
+    build: .
+    container_name: fredrinn-bot
+    
+    # Mount the .env file for API keys (never baked into image)
+    env_file:
+      - .env
+    
+    # Override WORKSPACE_DIR to point to the sandboxed demo directory
+    environment:
+      - WORKSPACE_DIR=/app/demo_files
+    
+    # Mount demo_files as a volume so changes persist across restarts
+    # and are visible from the host for inspection
+    volumes:
+      - ./demo_files:/app/demo_files
+    
+    # Restart automatically on crash (rate-limit errors, etc.)
+    restart: unless-stopped
+    
+    # Keep stdin open for debugging
+    stdin_open: true
+    tty: true

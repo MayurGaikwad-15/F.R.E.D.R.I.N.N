@@ -1,0 +1,28 @@
+# Security & API Keys
+.env
+credentials.json
+token.json
+linkedin_token.json
+secret.txt
+processed_emails.json
+
+# Databases & Local Storage
+memory.db
+/tmp/
+/workspace/
+
+# Python environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Test & generated files
+test_*.txt
+*.pdf
+research_reports/
+
+# IDE & tools
+.pyre_configuration
+skills/
+drive_token.json

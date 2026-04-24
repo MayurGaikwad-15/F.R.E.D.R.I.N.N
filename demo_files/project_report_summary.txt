@@ -1,0 +1,31 @@
+SENTINEL AI BOT — FINAL YEAR PROJECT REPORT
+============================================
+Department of AI & ML
+Universal College of Engineering, Vasai
+
+Team Members:
+  - Aaryan Bhujbal (17)
+  - Khatri Noumaan (51)
+  - Mayur Gaikwad (27)
+  - Prisha Shah (105)
+
+Guide: Mr. Abhishek Patra
+
+Project Summary:
+Sentinel is an autonomous AI agent that unifies Gmail, Google Calendar,
+LinkedIn, food ordering, and web research through a single Discord
+chat interface. It uses Groq's LLaMA 3 models for inference and
+implements a ReAct (Reasoning and Acting) loop for dynamic tool calling.
+
+Key Achievements:
+  1. 39+ tools across 8 functional groups
+  2. Human-in-the-Loop safety for 5 dangerous operations
+  3. Autonomous 60-second Gmail polling with push alerts
+  4. Dynamic tool routing reducing token usage by 80%
+  5. Self-contained food delivery simulation module
+
+Technologies Used:
+  Python 3.12, discord.py, Groq API, Google APIs, Playwright, SQLite
+
+Grade: [PENDING]
+Date: April 2026

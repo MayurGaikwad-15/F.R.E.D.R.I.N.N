@@ -1,0 +1,13 @@
+# ─── Sentinel Configuration ───
+BOT_NAME=Sentinel
+VERSION=2.1.0
+LOG_LEVEL=INFO
+MAX_CHAT_HISTORY=10
+EMAIL_POLL_INTERVAL_SECONDS=60
+PROACTIVE_CHECKIN_MINUTES=30
+WORKSPACE_DIR=/app/demo_files
+DANGEROUS_TOOLS=send_email,delete_email,write_local_file,delete_calendar_event,post_to_linkedin
+LLM_MODEL=llama-3.1-8b-instant
+LLM_FALLBACK_MODEL=llama-3.3-70b-versatile
+FOOD_DELIVERY_ENABLED=true
+MAX_TOOL_LOOPS=10

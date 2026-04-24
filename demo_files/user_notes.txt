@@ -1,0 +1,12 @@
+=== Sentinel User Notes ===
+
+TODO: Finish calendar integration testing
+TODO: Add rate limit retry logic for Groq API
+TODO: Test food ordering with edge cases (empty order, unknown items)
+
+MEETING NOTES (April 18):
+- Discussed LinkedIn OAuth scope requirements
+- Decided to use discord.py v2 for button interactions
+- Next sprint: implement multi-user support
+
+IDEA: Add voice commands via Whisper API
