@@ -546,9 +546,7 @@ Docker confines all file operations to `/app/demo_files/` inside the container, 
 
 ---
 
-## Team
 
-**Developer:** Mayur Gaikwad — Engineer & Lead Developer
 
 **Guide:** Mr. Saviour Fargose
 
